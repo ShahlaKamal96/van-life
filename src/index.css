@@ -5,9 +5,169 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar{
+  font-family: 'Inter', sans-serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 40px;
+
+}
+
+.navbar>h1{
+  font-style: normal;
+font-weight: 900;
+font-size: 25.3531px;
+line-height: 40px;
+
+}
+.navbar>h1>a{
+  text-decoration: none;
+  color: black;
+}
+.navbar>h1>a:hover{
+  text-decoration: underline;
+}
+.navbar>ul{
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 23px;
+color: #4D4D4D;
+}
+.navbar>ul>li>a{
+  color: #4D4D4D;
+  text-decoration: none;
+}
+.navbar>ul>li>a:hover{
+  text-decoration: underline;
+}
+
+
+.home{
+  margin: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url(assets/images/vanImg.png);
+height: 100%;
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; 
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 66px;
+font-family: 'Inter';
+font-style: normal;
+
+}
+.home>h2{
+font-weight: 800;
+font-size: 36px;
+line-height: 42px;
+color: white;
+width: 494.33px;
+height: 84px
+}
+.home>p{
+font-weight: 200;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+width: 494.33px;
+height: 48px;
+}
+.home>a{
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 200.33px;
+font-weight: 700;
+font-size: 15.9462px;
+line-height: 32px;
+background-color: #FF8C38;
+border-radius: 5px;
+padding: 10px 143px;
+outline: none;
+border: none;
+cursor: pointer;
+margin-top: 51px;
+text-align: center;
+}
+a{
+  transition: transform .1s ease-in-out;
+}
+a:hover{
+  transform: translate(2px, 2px);
+}
+
+
+/* about */
+.about{
+  font-family: 'Inter';
+font-style: normal;
+color: #161616;
+}
+.boy{
+width: 100%;
+
+}
+.about-content{
+  
+padding: 48px 27px;
+
+}
+.about-header{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+
+}
+.about-text{
+  font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+}
+
+.destination{
+  background: #FFCC8D;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 32px 37px;
+}
+.destination>p{
+font-size: 24px;
+line-height: 30px;
+}
+.destination-button{
+  text-decoration: none;
+font-size: 15.9462px;
+line-height: 24px;
+color: #FFFFFF;
+background-color: #000;
+border: none;
+border-radius: 5px;
+padding: 12px 22px;
+cursor: pointer;
+}
+
+.footer{
+  background-color: #252525;
+padding-block: 25px;
+}
+.copyright{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+text-align: center;
+color: #AAAAAA;
 }
