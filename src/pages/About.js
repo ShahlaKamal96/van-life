@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Boy from '../../assets/images/boy.png'
+import Boy from '../assets/images/boy.png'
 function About() {
     return (
         <div className='about'>
