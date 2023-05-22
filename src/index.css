@@ -3,10 +3,7 @@ body {
   font-family: 'Inter';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/*  */
 
 .navbar{
   font-family: 'Inter', sans-serif;
@@ -30,6 +27,7 @@ line-height: 40px;
 }
 .navbar>h1>a:hover{
   text-decoration: underline;
+ 
 }
 .navbar>ul{
   list-style: none;
@@ -47,6 +45,9 @@ color: #4D4D4D;
 }
 .navbar>ul>li>a:hover{
   text-decoration: underline;
+  font-weight: bold;
+  color: #161616
+  
 }
 
 
@@ -229,6 +230,7 @@ padding: 62px 27px;
   font-weight: 500;
   font-size: 14px;
   display: block;
+padding-left: 5px;
 
 }
 
@@ -293,3 +295,135 @@ background: #FF8C38;
 border-radius: 4.98319px;
 padding: 10px 144px;
 }
+
+/* host */
+.hostLayout{
+  padding: 30px 40px;
+  
+}
+.hostLayout>a{
+  text-decoration: none;
+  color: black;
+margin-right: 40px;
+
+}
+.hostLayout>a:hover{
+  text-decoration: underline;
+
+  font-weight: bold;
+}
+
+.dashboard-host{
+  height: 100dvh;
+
+   background-color: #FFF7ED;
+   margin-top: 45px;
+}
+.dashboard-welcome-bg{
+  background: #FFEAD0;
+  padding: 30px 40px;
+}
+.dashboard-welcome{
+  background: #FFEAD0;
+  padding: 30px 40px;
+}
+.dashboard-welcome>h2{
+  font-weight: 700;
+font-size: 36px;
+color: #161616;
+margin: 0;
+}
+.detail{
+  font-weight: 500;
+font-size: 16px;
+color: #4D4D4D;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0;
+}
+.dashboard-welcome>p{
+  font-weight: 800;
+font-size: 48px;
+color: #161616;
+margin: 0;
+}
+.review-score{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: #FFDDB2;
+ 
+}
+.score{
+  display: flex;
+  gap:10px;
+  align-items: center;
+}
+.heading{
+  font-weight: 700;
+font-size: 24px;
+line-height: 22px;
+color: #161616;
+}
+.score p:nth-child(2){
+  display: flex;
+  gap:5px;
+  font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+color: #161616;
+}
+.score p:nth-child(2)>span>span{
+color: #4D4D4D;
+font-weight: 400;
+}
+.dashboard-host .listed-vans{
+  padding: 30px 40px; 
+}
+.dashboard-host .listed-vans>div{
+  display: flex;
+ justify-content: space-between;
+}
+.edit-vans{
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px;
+ background-color: white;
+ border-radius: 5px;
+}
+.edit-vans>div{
+  display: flex;
+  gap:15px
+}
+.edit-vans>div>img{
+  width: 65.88px;
+height: 65.88px;
+}
+.edit-vans>div>p{
+ margin: 0;
+  font-weight: 600;
+font-size: 20px;
+color: #161616;
+}
+.edit-vans>div>p>span{
+display: block;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+color: #4D4D4D;
+}
+
+/* hostvans */
+
+.hostvan{
+font-size: 25px;
+font-weight: 700;
+color: #161616;
+}
+.hostvandiv{
+  margin-left: 20px;
+}
+
