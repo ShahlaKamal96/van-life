@@ -11,7 +11,7 @@ function HostVans() {
 
     const myListVans = vans.map((van) => {
         return (
-            <Link key={van.id} to={`/host/vans/${van.id}`}>
+            <Link key={van.id} to={van.id}>
                 <div className='edit-vans'>
 
                     <div className="hostvandiv">

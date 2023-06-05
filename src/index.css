@@ -196,12 +196,26 @@ color: #161616;
   line-height: 24px;
   color: #4D4D4D;
   background-color: #FFEAD0;
-
+  cursor: pointer;
 }
-.vans-types>button:hover{
+
+
+.simple:hover, .simple.selected{
+background-color: #E17654;
+color: white;
+}
+.luxury:hover, .luxury.selected{
+  background-color: #252525;
+  color: white;
+}
+.rugged:hover, .rugged.selected{
+  background-color: #115E59;
+  color: white;
+}
+.vans-types>.clear-filters{
+  background-color: transparent;
   text-decoration: underline;
 }
-
 .vans>h1{
   padding-left: 40px;
 }
@@ -297,6 +311,11 @@ color: #FFFFFF;
 background: #FF8C38;
 border-radius: 4.98319px;
 padding: 10px 144px;
+}
+.vanDetails-backToAllVans{
+  padding-left:40px ;
+margin: 0;
+padding-block: 0;
 }
 
 /* host */

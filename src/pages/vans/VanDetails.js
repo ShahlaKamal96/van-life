@@ -19,7 +19,9 @@ function VanDetails() {
     return (
 
         <div >
-            {van ? (<div className='vanDetails'> <img src={van.imageUrl} />
+            <Link className='vanDetails-backToAllVans' to=".." relative="path">&larr; Back to all vans </Link>
+            {van ? (<div className='vanDetails'>
+                <img src={van.imageUrl} />
                 <span className={`van-type ${van.type}`}>{van.type}</span>
                 <p className='detail-name'>{van.name}</p>
                 <p className="van-price">${van.price}<span>/day</span></p>
